@@ -63,7 +63,7 @@ export const ProductWrapper = styled.div`
     color: #06c;
   }
 
-  sup {
+  sup a {
     font-size: smaller;
     color: #8d8d91;
   }

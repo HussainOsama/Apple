@@ -3,22 +3,22 @@
 body {
   margin: 0;
   font-family: SFPro, "SF Pro Text", "SF Pro Icons", "Helvetica Neue",
-    "Helvetica", "Arial", sans-serif;
+    "Helvetica", "Arial", sans-serif !important;
 }
 
 .Navbar {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  width: 100%;
-  height: 55px;
-  background-color: rgba(0, 0, 0, 0.8);
-  position: top;
-  overflow: hidden;
+  display: flex !important;
+  justify-content: space-around !important;
+  text-align: center !important;
+  width: 100% !important;
+  height: 70px !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  position: top !important;
+  overflow: hidden !important;
   color: rgba(255, 255, 255, 0.582) !important;
   /* font-size: 17px; */
-  font-size: 1.3em;
-  padding: 10px;
+  font-size: 1.3em !important;
+  padding: 10px !important;
 }
 
 .Navbar a {
@@ -27,9 +27,9 @@ body {
 }
 
 .Navbar a:visited {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.582);
-  background-color: rgba(0, 0, 0, 0.8);
+  text-decoration: none !important;
+  color: rgba(255, 255, 255, 0.582) !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
 /* #Mac a:visited {
@@ -39,8 +39,8 @@ body {
 } */
 
 .Navbar a:hover {
-  text-decoration: none;
-  color: white;
+  text-decoration: none !important;
+  color: white !important;
 }
 
 .Navbar-item {
