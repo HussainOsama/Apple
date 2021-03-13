@@ -5,7 +5,7 @@ function Fitness() {
   return (
     <div className="apple-fitness">
       <h1 className="title">
-        <span className="apple-logo-fitness"></span>Fitness+
+        <span className="apple-logo-"></span>Fitness+
       </h1>
       <p style={{ marginBottom: 0 }}>A new fitness experience for everyone</p>
       <p style={{ marginTop: 0 }}>Powered by Aplle Watch.</p>
