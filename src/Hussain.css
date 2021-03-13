@@ -1,0 +1,132 @@
+.container-fluid {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.apple-watch {
+  width: 50%;
+  height: 540px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-right: 5px;
+  position: relative;
+  /* float:left; */
+}
+
+.macbook-air {
+  width: 50%;
+  height: 580px;
+  background-color: #282c34;
+}
+
+.apple-watch img {
+  position: absolute;
+  margin: auto; /* Required */
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: 0;
+  align-items: center;
+  height: 70%;
+  max-width: 100%;
+}
+
+.apple-logo {
+  font-size: 40px;
+}
+
+.apple-watch h1 {
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+
+.apple-watch h5 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #c51e27;
+}
+
+.apple-watch p {
+  margin: 10px 0;
+}
+
+.apple-watch a {
+  color: #2997ff;
+  margin: 5px;
+  text-decoration: none;
+}
+
+/* Fitness */
+.apple-fitness {
+  width: 50%;
+  height: 540px;
+  background-color: #fbfbfd;
+  color: black;
+  text-align: center;
+  margin-right: 5px;
+  position: relative;
+  /* float:left; */
+}
+
+.apple-fitness img {
+  position: absolute;
+  margin: auto; /* Required */
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: 0;
+  align-items: center;
+  height: 70%;
+  /* max-width: 100%; */
+}
+
+.apple-logo-fitness {
+  font-size: 30px;
+}
+
+.apple-fitness h1 {
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+
+.apple-fitness h5 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #c51e27;
+}
+
+.apple-fitness p {
+  margin: 10px 0;
+}
+
+.apple-fitness a {
+  color: #2997ff;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #f5f5f7;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.font {
+  font-size: 12px;
+  color: #1d1d1f;
+}
+
+.font a {
+  color: #515154;
+}
+
+.footer p {
+  color: #515154;
+  font-size: 13px;
+}
